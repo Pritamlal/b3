@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80vh;
+
+}
+
+.container{
+    border:2px solid gray;
+    width:280px;
+    border-width:5px;
+}
+
+
+.first{
+    display:flex;
+    align-items: center;
+}
+
+.second{
+    display:flex;
+    align-items: center;
+}
+
+.third{
+    display:flex;
+    align-items: center;
+}
+
+.fourth{
+    display:flex;
+    align-items: center;
+}
+
+.fifth{
+    display:flex;
+    align-items: center;
+}
+
+div p{
+    margin-left:15px;
+}
+
+div input{
+    margin-left:25px;
+}
+
+.btn{
+    margin-left:40%;
+    margin-bottom:15px;
+    margin-top:15px;
+}

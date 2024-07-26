@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event method</title>
+</head>
+<body>
+    <h1 id="result">Name</h1>
+    <button onclick="update(event)">Arun</button>
+    <button onclick="update(event)">Pritam</button>
+    <button onclick="update(event)">Shriyan</button>
+
+    <script>
+        var h1 = document.getElementById("result");
+        function update(event){
+            h1.textContent = event.target.textContent
+        }
+    </script>
+</body>
+</html>

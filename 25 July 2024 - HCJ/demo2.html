@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        </style>
+</head>
+<body>
+    <button id="btn1" onclick="display1()">John</button>
+    <button id="btn2" onclick="display2()">Karthi</button>
+    <button id="btn3" onclick="display3()">Shri</button>
+    <p id="displayArea"></p>
+    <script>
+        function display1(){
+       var b1 = document.getElementById("btn1").textContent;
+       document.getElementById("displayArea").textContent=b1;
+
+        }
+        function display2(){
+       var b2 = document.getElementById("btn2").textContent;
+       document.getElementById("displayArea").textContent=b2;
+        }
+        function display3(){
+       var b3 = document.getElementById("btn3").textContent;
+       document.getElementById("displayArea").textContent=b3;
+        }
+    </script>
+</body>
+</html>
+
